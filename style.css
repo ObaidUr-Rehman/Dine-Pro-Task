@@ -237,7 +237,6 @@ nav button {
 }
 
 
-
 @media screen and (max-width: 1240px) {
     .first {
         grid-template-columns: 1fr;
@@ -245,7 +244,6 @@ nav button {
         align-items: center;
         text-align: center;
     }
-
 
     header nav{
         max-width: 1000px;
