@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+html body{
+    overflow-x: hidden;
+    font-family: 'Quicksand';
+}
+
 
 header div {
     background-color: #FEF7F0;
@@ -17,6 +22,7 @@ nav {
     margin: 0 auto;
     align-items: center;
     text-align: center;
+    /* position: fixed; */
     /* padding: 40px; */
 }
 
@@ -35,8 +41,6 @@ nav {
     padding: 30px 0;
     /* height: 100vh; */
     max-width: 1500px;
-    /* position: absolute;
-    z-index: 0; */
 }
 
 .responsive_navbar a {
@@ -63,7 +67,6 @@ nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-right: 30px;
-    font-family: 'Quicksand';
 }
 
 nav a:hover {
@@ -94,7 +97,6 @@ nav button {
     border-radius: 6px;
     border: 1px solid #4C3648;
     font-size: 15px;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .demo_button button:last-child {
@@ -102,7 +104,6 @@ nav button {
     border-radius: 6px;
     border: 1px solid #4C3648;
     font-size: 15px;
-    font-family: 'Ubuntu', sans-serif;
     margin-left: 40px;
 }
 
@@ -140,7 +141,6 @@ nav button {
 .grid_container_operation h1,
 .grid_container_potencial h1 .Fuel_Your_Restaurant h1 {
     font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .grid_container p,
@@ -240,14 +240,12 @@ nav button {
 .potencial_integration_section {
     max-width: 100%;
     /* width: 100%; */
-    font-family: 'Ubuntu', sans-serif;
     background: #4C3648;
 }
 
 .grid_container_potencial h2 {
     color: white;
     line-height: 1.8em;
-    font-family: "QuickSand";
     margin-top: 20px;
     font-size: 25px;
 }
@@ -259,7 +257,6 @@ nav button {
 }
 
 .section h2 {
-    font-family: "QuickSand";
     margin: 15px 0;
 }
 
@@ -306,7 +303,6 @@ nav button {
 }
 
 .section h3 {
-    font-family: "QuickSand";
     color: rgb(44, 43, 43);
 }
 
@@ -322,7 +318,6 @@ nav button {
 
 .Fuel_Your_Restaurant p {
     font-size: 30px;
-    font-family: "QuickSand";
     margin-top: 10px;
 }
 
@@ -347,9 +342,6 @@ nav button {
     background: #FEFBE4
 }
 
-
-
-
 /* page 3 */
 
 .Delight_Customer {
@@ -357,7 +349,6 @@ nav button {
 }
 
 .Delight_Customer h1 {
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -386,7 +377,6 @@ nav button {
 
 .grid_container2 div:nth-child(1) {
     background: #FAEAC8;
-    font-family: 'Quicksand', sans-serif;
     border: 1px solid #FAEAC8;
     background-image: url(./img/stroke.svg);
     background-repeat: no-repeat;
@@ -409,7 +399,6 @@ nav button {
 
 .grid_container2 div:nth-child(3) {
     background: #C4DFC9;
-    font-family: 'Quicksand', sans-serif;
     border: 1px solid #C4DFC9;
     background-image: url(./img/Coin.svg);
     background-repeat: no-repeat;
@@ -441,11 +430,7 @@ nav button {
 
 .grid_container2 p {
     font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
 }
-
-
-
 
 /* second last */
 .youtube_video {
@@ -506,7 +491,6 @@ nav button {
     font-size: 32px;
     line-height: 1.5;
     color: white;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .Solution {
@@ -526,7 +510,6 @@ nav button {
     max-width: 1500px;
     align-items: center;
     padding: 200px 50px;
-    font-family: 'Quicksand', sans-serif;
     color: white;
     gap: 100px;
     font-size: 22px;
@@ -652,7 +635,6 @@ footer {
     .overlay_right_img {
         right: 25%;
         top: 30%;
-
     }
 
     .overlay_icon_img {
