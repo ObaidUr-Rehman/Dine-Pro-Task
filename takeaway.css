@@ -361,24 +361,7 @@ footer {
     color: black;
 }
 
-               /* Media Queries For All Screen */
-
-@media screen and (max-width: 1200px) {
-    .responsive_icon {
-        display: block;
-        font-size: 35px;
-        color: rgb(150, 145, 145);
-        text-align: end;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    nav {
-        max-width: 1000px;
-    }
-}
+               /* Media Queries For All Pages */
 
 @media screen and (max-width: 1608px) {
     .grid_container {
@@ -398,8 +381,15 @@ footer {
     .catalog p {
         font-size: 18px;
     }
-}
 
+    .youtube_video{
+        max-width: 1100px;
+    }
+    
+    .fb{
+        padding-left: 15px;
+    }
+}
 
 @media screen and (max-width: 1240px) {
     .first {
@@ -453,11 +443,84 @@ footer {
         font-size: 34px;
     }
 
+    .responsive_icon {
+        display: block;
+        font-size: 35px;
+        color: rgb(150, 145, 145);
+        text-align: end;
+    }
 
+    .navbar {
+        display: none;
+    }
+
+    nav {
+        max-width: 1000px;
+    }
+
+    .youtube_video{
+        max-width: 900px;
+        width: 80%;
+    }
+
+    .video p{
+        font-size: 17px;
+    }
+
+    .potencial,
+    .youtube_video {
+        max-width: 1100px;
+    }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1144px) {
+    .potencial {
+        max-width: 900px;
+    }
 
+    .potencial h2 {
+        font-size: 20px;
+    }
+
+    .potencial h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+
+    .youtube_video {
+        max-width: 700px;
+    }
+
+    .video p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .video h1 {
+        font-size: 30px;
+    }
+
+    .footer_top{
+        max-width: 900px;
+    }
+    .solutions{
+        margin-left: 0;
+    }
+
+    .potencial {
+        grid-template-columns: 1fr;
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .section {
+        gap: 18px;
+    }
+
+    
     .first:first-child {
         width: 700px;
     }
@@ -493,7 +556,6 @@ footer {
         font-size: 15px
     }
 
-
 }
 
 @media screen and (max-width: 788px) {
@@ -511,7 +573,9 @@ footer {
         font-size: 12px
     }
 
-    ;
+    .footer_top{
+        grid-template-columns: 1fr;
+     }
 }
 
 @media screen and (max-width: 628px) {
@@ -521,97 +585,5 @@ footer {
 
     .heading_goodbye button {
         align-items: center;
-    }
-}
-
-
-@media screen and (max-width: 1284px) {
-
-    .potencial,
-    .youtube_video {
-        max-width: 1100px;
-    }
-}
-
-@media screen and (max-width: 1144px) {
-    .potencial {
-        max-width: 900px;
-    }
-
-    .potencial h2 {
-        font-size: 20px;
-    }
-
-    .potencial h1 {
-        font-size: 35px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .potencial {
-        grid-template-columns: 1fr;
-        text-align: center;
-        max-width: 700px;
-    }
-
-    .section {
-        gap: 18px;
-    }
-}
-
-
-@media screen and (max-width: 1554px){
-
-    .youtube_video{
-        max-width: 1100px;
-    }
-    
-    .fb{
-        padding-left: 15px;
-    }
-}
-
-@media screen and (max-width: 1200px){
-
-    .youtube_video{
-        max-width: 900px;
-        width: 80%;
-    }
-
-    .video p{
-        font-size: 17px;
-    }
-}
-
-@media screen and (max-width: 999px) {
-
-    .youtube_video {
-        max-width: 700px;
-    }
-
-    .video p {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .video h1 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 999px){
- 
-    .footer_top{
-        max-width: 900px;
-    }
-    .solutions{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 800px){
- 
-    .footer_top{
-       grid-template-columns: 1fr;
     }
 }

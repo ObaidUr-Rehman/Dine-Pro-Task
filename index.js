@@ -18,10 +18,9 @@ icon.addEventListener('click', () => {
 })
 
 
-// Mouse over
+// Mouse over event
 div1.addEventListener('mouseover', () => {
     img.src="./img/Delivery.gif"
-    img.style.transition = "0.25s;"
 });
 
 div2.addEventListener('mouseover', () => {
@@ -37,7 +36,7 @@ div4.addEventListener('mouseover', () => {
 });
 
 
-// Mouse out
+// Mouse out event
 div1.addEventListener('mouseout', () => {
     img.src="./img/Order_girl.png"
 });
