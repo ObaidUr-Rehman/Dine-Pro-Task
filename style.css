@@ -9,6 +9,22 @@ html body{
     font-family: 'Quicksand';
 }
 
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: #a8a6a7;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15px;
+}
+
+span{
+    color: #F18773;
+}
+
 
 header div {
     background-color: #FEF7F0;
@@ -22,8 +38,6 @@ nav {
     margin: 0 auto;
     align-items: center;
     text-align: center;
-    /* position: fixed; */
-    /* padding: 40px; */
 }
 
 .responsive_icon {
@@ -80,7 +94,6 @@ nav button {
     font-size: 15px;
     border-radius: 6px;
     border: 1px solid #ED614A;
-
 }
 
 .demo_button {
@@ -105,6 +118,10 @@ nav button {
     border: 1px solid #4C3648;
     font-size: 15px;
     margin-left: 40px;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .banner {
@@ -133,33 +150,6 @@ nav button {
 .grid_container_potencial span {
     margin-top: 20px;
     vertical-align: text-bottom;
-}
-
-.grid_container h1,
-.grid_container_type h1,
-.Delight_Customer h1,
-.grid_container_operation h1,
-.grid_container_potencial h1 .Fuel_Your_Restaurant h1 {
-    font-size: 50px;
-}
-
-.grid_container p,
-.grid_container_type p,
-.grid_container_potencial p,
-.grid_container_operation p,
-.grid_container_operation p {
-    color: #a8a6a7;
-    line-height: 1.5em;
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 15px;
-}
-
-.grid_container h1 span,
-.Delight_Customer h1 span,
-.grid_container_potencial h1 span,
-.Fuel_Your_Restaurant h1 span {
-    color: #F18773;
 }
 
 .Mobile_img {
@@ -236,112 +226,6 @@ nav button {
     background: #ED614A;
 }
 
-/* page 4 */
-.potencial_integration_section {
-    max-width: 100%;
-    /* width: 100%; */
-    background: #4C3648;
-}
-
-.grid_container_potencial h2 {
-    color: white;
-    line-height: 1.8em;
-    margin-top: 20px;
-    font-size: 25px;
-}
-
-.section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-
-.section h2 {
-    margin: 15px 0;
-}
-
-.section h2 span,
-.section span {
-    margin-right: 10px;
-    color: #ED614A;
-    font-size: 45px;
-}
-
-
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
-}
-
-
-
-/* page 5 */
-
-.Restaurant_Operation {
-    max-width: 100%;
-    /* width: 100%; */
-    font-family: 'Ubuntu', sans-serif;
-    background: #FEF7F0;
-}
-
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
-}
-
-.container div {
-    background-color: white;
-    padding: 0px 20px 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
-}
-
-.section h3 {
-    color: rgb(44, 43, 43);
-}
-
-.section h2 {
-    margin-top: 0;
-}
-
-/* page 6 */
-.Fuel_Your_Restaurant {
-    width: 100%;
-    max-width: 100%;
-}
-
-.Fuel_Your_Restaurant p {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.digit div {
-    padding: 40px;
-    border-radius: 20px;
-}
-
-.digit div:nth-child(1) {
-    background: #FEF1ED;
-}
-
-.digit div:nth-child(2) {
-    background: #E9F3F9;
-}
-
-.digit div:nth-child(3) {
-    background: #FAF4FF;
-}
-
-.digit div:nth-child(4) {
-    background: #FEFBE4
-}
-
 /* page 3 */
 
 .Delight_Customer {
@@ -413,7 +297,6 @@ nav button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-size: 100% 100%; */
 }
 
 .grid_container2 div:nth-child(5) {
@@ -431,6 +314,108 @@ nav button {
 .grid_container2 p {
     font-size: 18px;
 }
+
+/* page 4 */
+.potencial_integration_section {
+    max-width: 100%;
+    background: #4C3648;
+}
+
+.grid_container_potencial h2 {
+    color: white;
+    line-height: 1.8em;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.section h2 {
+    margin: 15px 0;
+}
+
+.section h2 span,
+.section span {
+    margin-right: 10px;
+    color: #ED614A;
+    font-size: 45px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+/* page 5 */
+.Restaurant_Operation {
+    max-width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background: #FEF7F0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.container div {
+    background-color: white;
+    padding: 0px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.section h3 {
+    color: rgb(44, 43, 43);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+/* page 6 */
+.Fuel_Your_Restaurant {
+    width: 100%;
+    max-width: 100%;
+}
+
+.Fuel_Your_Restaurant p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.digit div {
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.digit div:nth-child(1) {
+    background: #FEF1ED;
+}
+
+.digit div:nth-child(2) {
+    background: #E9F3F9;
+}
+
+.digit div:nth-child(3) {
+    background: #FAF4FF;
+}
+
+.digit div:nth-child(4) {
+    background: #FEFBE4
+}
+
 
 /* second last */
 .youtube_video {
@@ -457,8 +442,6 @@ nav button {
     text-align: center;
     font-size: 20px;
 }
-
-
 
 /* last page */
 
@@ -619,6 +602,10 @@ footer {
         max-width: 1000px;
     }
 
+    .responsive_navbar{
+        max-width: 1000px;
+    }
+
     nav a {
         margin-right: 15px;
     }
@@ -680,7 +667,7 @@ footer {
         display: block;
         font-size: 35px;
         color: rgb(150, 145, 145);
-        text-align: end;
+        /* text-align: end; */
     }
 
     .navbar {
